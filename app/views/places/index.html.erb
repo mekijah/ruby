@@ -1,1 +1,12 @@
-<h1>This is the home page</h1>
+<h1>This is the front page</h1>
+
+
+
+  
+<% @restaurants.each do |restaurants| %>
+  <div style="width:500px;height:200px;border:1px solid #000;margin: 0 auto">
+  <h1><%= restaurants.name %></h1>
+  <h3><%= restaurants.address %></h3>
+  <h3><%= restaurants.description %></h3>
+  </div>
+<% end %>
