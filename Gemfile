@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
-
+ 
+#Use Bootstrap for design
+gem 'bootstrap-sass','~>3.3.5.1'
+gem 'sprockets', '~> 3.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
